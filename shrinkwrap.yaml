@@ -1,0 +1,376 @@
+dependencies:
+  hapi: 17.5.1
+  hapi-uploader: 0.2.0
+packages:
+  /accept/3.0.2:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-bghLXFkCOsC1Y2TZ51etWfKDs6q249SAoHTZVfzWWdlZxoij+mgkj9AmUJWQpDY48TfnrTDIe43Xem4zdMe7mQ==
+  /ammo/3.0.1:
+    dependencies:
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-4UqoM8xQjwkQ78oiU4NbBK0UgYqeKMAKmwE4ec7Rz3rGU8ZEBFxzgF2sUYKOAlqIXExBDYLN6y1ShF5yQ4hwLQ==
+  /async/1.5.2:
+    dev: false
+    resolution:
+      integrity: sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
+  /b64/4.0.0:
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-EhmUQodKB0sdzPPrbIWbGqA5cQeTWxYrAgNeeT1rLZWtD3tbNTnphz8J4vkXI3cPgBNlXBjzEbzDzq0Nwi4f9A==
+  /big-time/2.0.1:
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    resolution:
+      integrity: sha1-aMffjcMPl+lT8lpnp2rJcTwWyd4=
+  /boom/3.2.2:
+    dependencies:
+      hoek: 4.2.1
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-DwzF0ErcUAO4x9cfQsynJx/vDng=
+  /boom/7.2.0:
+    dependencies:
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha1-K/8kpVVldn/ehp7ICDF+sQxI6WY=
+  /bounce/1.2.0:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-8syCGe8B2/WC53118/F/tFy5aW00j+eaGPXmAUP7iBhxc+EBZZxS1vKelWyBCH6IqojgS2t1gF0glH30qAJKEw==
+  /call/5.0.1:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-ollfFPSshiuYLp7AsrmpkQJ/PxCi6AzV81rCjBwWhyF2QGyUY/vPDMzoh4aUcWyucheRglG2LaS5qkIEfLRh6A==
+  /catbox-memory/3.1.2:
+    dependencies:
+      big-time: 2.0.1
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-lhWtutLVhsq3Mucxk2McxBPPibJ34WcHuWFz3xqub9u9Ve/IQYpZv3ijLhQXfQped9DXozURiaq9O3aZpP91eg==
+  /catbox/10.0.2:
+    dependencies:
+      boom: 7.2.0
+      bounce: 1.2.0
+      hoek: 5.0.3
+      joi: 13.4.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-cTQTQeKMhWHU0lX8CADE3g1koGJu+AlcWFzAjMX/8P+XbkScGYw3tJsQpe2Oh8q68vOQbOLacz9k+6V/F3Z9DA==
+  /content/4.0.5:
+    dependencies:
+      boom: 7.2.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-wDP6CTWDpwCf791fNxlCCkZGRkrNzSEU/8ju9Hnr3Uc5mF/gFR5W+fcoGm6zUSlVPdSXYn5pCbySADKj7YM4Cg==
+  /cryptiles/4.1.1:
+    dependencies:
+      boom: 7.2.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-YuQUPbcOmaZsdvxJZ25DCA1W+lLIRoPJKBDKin+St1RCYEERSfoe1d25B1MvWNHN3e8SpFSVsqYvEUjp8J9H2w==
+  /hapi-uploader/0.2.0:
+    dependencies:
+      async: 1.5.2
+      boom: 3.2.2
+      hoek: 3.0.4
+      joi: 8.4.2
+      mime: 1.6.0
+      urlencode: 1.1.0
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-tJ0xEiZVfEuGfM6UgyiGyh83MC4=
+  /hapi/17.5.1:
+    dependencies:
+      accept: 3.0.2
+      ammo: 3.0.1
+      boom: 7.2.0
+      bounce: 1.2.0
+      call: 5.0.1
+      catbox: 10.0.2
+      catbox-memory: 3.1.2
+      heavy: 6.1.0
+      hoek: 5.0.3
+      joi: 13.4.0
+      mimos: 4.0.0
+      podium: 3.1.2
+      shot: 4.0.5
+      statehood: 6.0.6
+      subtext: 6.0.7
+      teamwork: 3.0.1
+      topo: 3.0.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-IOOCwH75JMw28Spd9tMjYi9QsIqSGiJKH/GHwsmUV5ZgyyQIgVbWxbeuUFUwxcei4KIw1Gb1wJIDRF4jKlRq8w==
+  /heavy/6.1.0:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+      joi: 13.4.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-TKS9DC9NOTGulHQI31Lx+bmeWmNOstbJbGMiN3pX6bF+Zc2GKSpbbym4oasNnB6yPGkqJ9TQXXYDGohqNSJRxA==
+  /hoek/3.0.4:
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-Jorf9mu2aVxptHiaiLHghHw/MSM=
+  /hoek/4.2.1:
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha512-QLg82fGkfnJ/4iy1xZ81/9SIJiq1NGFUMGs6ParyjBZr6jW2Ufj/snDqTHixNlHdPNwN2RLVD0Pi3igeK9+JfA==
+  /hoek/5.0.3:
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-Bmr56pxML1c9kU+NS51SMFkiVQAb+9uFfXwyqR2tn4w2FPvmPt65eZ9aCcEfRXd9G74HkZnILC6p967pED4aiw==
+  /iconv-lite/0.4.23:
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-neyTUVFtahjf0mB3dZT77u+8O0QB89jFdnBkd5P1JgYPbPaia3gXXOVL2fq8VyU2gMMD7SaN7QukTB/pmXYvDA==
+  /iron/5.0.4:
+    dependencies:
+      boom: 7.2.0
+      cryptiles: 4.1.1
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-7iQ5/xFMIYaNt9g2oiNiWdhrOTdRUMFaWENUd0KghxwPUhrIH8DUY8FEyLNTTzf75jaII+jMexLdY/2HfV61RQ==
+  /isemail/2.2.1:
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-A1PT2aYpUQgMJiwqoKQrjqjp4qY=
+  /isemail/3.1.2:
+    dependencies:
+      punycode: 2.1.1
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha512-zfRhJn9rFSGhzU5tGZqepRSAj3+g6oTOHxMGGriWNJZzyLPUK8H7VHpqKntegnW8KLyGA9zwuNaCoopl40LTpg==
+  /joi/13.4.0:
+    dependencies:
+      hoek: 5.0.3
+      isemail: 3.1.2
+      topo: 3.0.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-JuK4GjEu6j7zr9FuVe2MAseZ6si/8/HaY0qMAejfDFHp7jcH4OKE937mIHM5VT4xDS0q7lpQbszbxKV9rm0yUg==
+  /joi/8.4.2:
+    dependencies:
+      hoek: 4.2.1
+      isemail: 2.2.1
+      moment: 2.22.2
+      topo: 2.0.2
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-vXd0ZY/pkFjYmU7R1LmWJITruFk=
+  /mime-db/1.34.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-RS0Oz/XDA0am3B5kseruDTcZ/5o=
+  /mime/1.6.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
+  /mimos/4.0.0:
+    dependencies:
+      hoek: 5.0.3
+      mime-db: 1.34.0
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-JvlvRLqGIlk+AYypWrbrDmhsM+6JVx/xBM5S3AMwTBz1trPCEoPN/swO2L4Wu653fL7oJdgk8DMQyG/Gq3JkZg==
+  /moment/2.22.2:
+    dev: false
+    resolution:
+      integrity: sha1-PCV/mDn8DpP/UxSWMiOeuQeD/2Y=
+  /nigel/3.0.1:
+    dependencies:
+      hoek: 5.0.3
+      vise: 3.0.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-kCVtUG9JyD//tsYrZY+/Y+2gUrANVSba8y23QkM5Znx0FOxlnl9Z4OVPBODmstKWTOvigfTO+Va1VPOu3eWSOQ==
+  /pez/4.0.2:
+    dependencies:
+      b64: 4.0.0
+      boom: 7.2.0
+      content: 4.0.5
+      hoek: 5.0.3
+      nigel: 3.0.1
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-HuPxmGxHsEFPWhdkwBs2gIrHhFqktIxMtudISTFN95RQ85ZZAOl8Ki6u3nnN/X8OUaGlIGldk/l8p2IR4/i76w==
+  /podium/3.1.2:
+    dependencies:
+      hoek: 5.0.3
+      joi: 13.4.0
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-18VrjJAduIdPv7d9zWsfmKxTj3cQTYC5Pv5gtKxcWujYBpGbV+mhNSPYhlHW5xeWoazYyKfB9FEsPT12r5rY1A==
+  /punycode/2.1.1:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+  /safer-buffer/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+  /shot/4.0.5:
+    dependencies:
+      hoek: 5.0.3
+      joi: 13.4.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha1-x+dFXRHWD2ts08Q+FaO0McF+VWY=
+  /statehood/6.0.6:
+    dependencies:
+      boom: 7.2.0
+      bounce: 1.2.0
+      cryptiles: 4.1.1
+      hoek: 5.0.3
+      iron: 5.0.4
+      joi: 13.4.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-jR45n5ZMAkasw0xoE9j9TuLmJv4Sa3AkXe+6yIFT6a07kXYHgSbuD2OVGECdZGFxTmvNqLwL1iRIgvq6O6rq+A==
+  /subtext/6.0.7:
+    dependencies:
+      boom: 7.2.0
+      content: 4.0.5
+      hoek: 5.0.3
+      pez: 4.0.2
+      wreck: 14.0.2
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-IcJUvRjeR+NB437Iq+LORFNJW4L6Knqkj3oQrBrkdhIaS2VKJvx/9aYEq7vi+PEx5/OuehOL/40SkSZotLi/MA==
+  /teamwork/3.0.1:
+    dev: false
+    engines:
+      node: '>=8.8.0'
+    resolution:
+      integrity: sha512-hEkJIpDOfOYe9NYaLFk00zQbzZeKNCY8T2pRH3I13Y1mJwxaSQ6NEsjY5rCp+11ezCiZpWGoGFTbOuhg4qKevQ==
+  /topo/2.0.2:
+    dependencies:
+      hoek: 4.2.1
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-zVYVdSU5BXwNwEkaYhw7xvvh0YI=
+  /topo/3.0.0:
+    dependencies:
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-Tlu1fGlR90iCdIPURqPiufqAlCZYzLjHYVVbcFWDMcX7+tK8hdZWAfsMrD/pBul9jqHHwFjNdf1WaxA9vTRRhw==
+  /urlencode/1.1.0:
+    dependencies:
+      iconv-lite: 0.4.23
+    dev: false
+    resolution:
+      integrity: sha1-HyuibwE8hfATP3o61v8nMK33y7c=
+  /vise/3.0.0:
+    dependencies:
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-kBFZLmiL1Vm3rHXphkhvvAcsjgeQXRrOFCbJb0I50YZZP4HGRNH+xGzK3matIMcpbsfr3I02u9odj4oCD0TWgA==
+  /wreck/14.0.2:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-QCm3omWNJUseqrSzwX2QZi1rBbmCfbFHJAXputLLyZ37VSiFnSYQB0ms/mPnSvrlIu7GVm89Y/gBNhSY26uVIQ==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 7
+shrinkwrapVersion: 3
+specifiers:
+  hapi: ^17.5.1
+  hapi-uploader: ^0.2.0
