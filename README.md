@@ -1,6 +1,6 @@
 # Hapi Uploader Demo
 
-Live demo [https://github.com/theRemix/hapi-uploader-demo](https://github.com/theRemix/hapi-uploader-demo)
+Live demo [https://hapi-uploader-demo.gomagames.com](https://hapi-uploader-demo.gomagames.com)
 
 ## using xhr with fetch
 
